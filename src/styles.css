@@ -1,0 +1,80 @@
+html,
+body {
+  font-family: "m-plus-rounded-1c", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #121212;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  color: #ffffff;
+  opacity: 87%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+}
+
+.parallax {
+  background-image: url(background.jpg);
+  min-height: 500px;
+
+  /*  */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, transparent 0%, black 100%);
+}
+
+.article {
+  min-width: 200px;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.card {
+  margin-bottom: 2em;
+  padding: 1em;
+  width: auto !important;
+}
+
+footer {
+  bottom: 0;
+}
+
+footer hr {
+  padding: 0%;
+  margin: 0%;
+  opacity: 100%;
+}
+
+footer h6 {
+  font-size: 0.75rem;
+  padding: 2vmin;
+  opacity: 30%;
+}

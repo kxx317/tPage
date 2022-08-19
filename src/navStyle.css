@@ -1,0 +1,24 @@
+div .container-fluid {
+  margin: 2vmax;
+}
+.navbar {
+  max-width: 1050px;
+  margin: auto;
+}
+.nav-links {
+  display: inline-block;
+  background-color: white; /*will change background-color of element */
+  border-radius: 0 !important;
+}
+.active {
+  width: 100%;
+  background-color: #bb86fe !important;
+}
+
+.nav-links:hover,
+.nav-item:hover {
+  width: 100%;
+  background-color: #bb86fe; /*will change background-color of element on hover */
+  color: white; /*will change color of text within the element on hover */
+  text-decoration: underline;
+}
